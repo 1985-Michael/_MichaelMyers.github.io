@@ -1,0 +1,140 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif ;
+    background-color: #dddddd;
+    background-image: url(criss-cross.png);
+    max-width: 960px;
+    margin: auto;
+}
+
+A {
+text-decoration: none;
+
+}
+
+.site {
+    float: none;
+    margin: auto;
+    background-color: white;
+    padding: 40px;
+    border-width: 0px 0px 5px 0px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-radius: 25px;
+}
+
+.container {
+    width: 180px; 
+    height: 80px;  
+    margin: 0px 0px 0px 0px;
+    background: #4aaaa5;
+    position: absolute;
+    float: left;
+    border-radius: 20px;
+
+}
+    
+.container h1 {
+    position: absolute;
+    color: white;
+    margin: 10px;
+    padding:0;
+    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif ; 
+    text-align: center;
+    position: relative;
+}
+
+div {
+    color: #777777;
+    display: block;
+    margin: auto;
+           
+}
+
+.pictures {
+    background-color: white;
+    height: 160px;
+    width: 160px;
+    float: left;
+    margin: 8px;
+    margin-left: 43px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.pictures:hover {
+    transform: scale(1.4);
+
+}
+
+main {
+    max-width: 915px;
+    height: 100vem;
+    margin: auto;
+    margin-top: 90px;
+    padding: 20px;
+    background-color: white;
+    border-width: 0px 0px 5px 5px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-radius: 20px;
+    box-shadow: 10px 11px 12px 0px #adcaca; 
+    position: absolute;
+
+}
+
+header {
+    Max-width: 960px;
+    display: block;
+    float: right;
+   
+}
+
+header nav {
+    display: block;
+    float: none;
+   
+}
+
+header nav a {
+    padding: 15px;
+    text-decoration-color: none;
+    color: #777777;
+   
+}
+
+header nav a:hover {
+    color: #4aaaa5;
+
+}
+        
+footer {
+    text-align: center;
+    color: white;
+    margin-bottom: 0%;
+    display: block;
+    padding: 20px;
+    background-color: #777777;
+    position: fixed;    
+    left: 0px;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    border-width: 5px 0px 0px 0px;
+    border-style: solid;
+    border-color: #4aaaa5;
+    
+}
+
+p.copyright {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+   
+}
+
+
